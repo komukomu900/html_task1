@@ -1,0 +1,148 @@
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+body {
+  width: 980px;
+  margin: 0 auto;
+  height: 100%;
+}
+ul {
+  /*余白の削除*/
+  margin: 0;
+  padding: 0;
+}
+ul.top_menu {
+  float: right;
+}
+li {
+  /*リスト先頭の黒丸を削除*/
+  list-style: none;
+}
+.header {
+  background-color: #F5B4B3;
+  height: 50px;
+  font-size: 1.5rem;
+}
+.logo_image {
+  width: 110px;
+  float: left;
+  margin: 0;
+}
+.top_menu li{
+  float: left;
+  width: auto;
+}
+.top_menu li a {
+  /*文字色と文字の下線を削除する*/
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+}
+.top_menu li a:hover {
+  /*カーソルあたった際にアンダーラインが出るようにする*/
+  text-decoration: underline;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.image_area {
+  width: 100%;
+}
+.side_menu {
+  width: 300px;
+  float: left;
+}
+/*要素の背景色・位置の変更*/
+.side_menu li {
+  background-color: #F5B4B3;
+  height: 6rem;
+  width: 30rem;
+  margin-bottom: 10px;
+}
+.side_menu li:hover{
+  opacity: 0.6;
+}
+/*要素の文字色・文字の位置変更*/
+.side_menu li a {
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+  /*要素をブロック形式にする*/
+  display: block;
+  /*文字の周りに余白を設ける*/
+  padding: 2rem;
+}
+.banner {
+  margin-top: 20px;
+}
+.banner img {
+  width: 100%;
+}
+.banner img:hover {
+  opacity: 0.6;
+}
+.wrapper {
+  margin-top: 10px;
+  padding-bottom: 100px;
+}
+.content {
+  width: 660px;
+  float: left;
+  font-size: 1.5rem;
+  margin-left: 20px;
+}
+.news {
+  height: 250px;
+  background-color: #FCE8E7;
+  padding: 20px;
+  overflow: scroll;
+  line-height: 2;
+}
+.container {
+  width: 980px;
+  margin: 0 auto;
+  position: relative;
+  min-height: 100%;
+}
+.banner_content {
+  margin-top: 10px;
+  display: table;
+}
+.banner_content a{
+  display: table-cell;
+}
+.banner_content img{
+  width: 100%;
+}
+.banner_content img:hover {
+  opacity: 0.6;
+}
+.footer {
+  background: #4D4D4D;
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: table;
+}
+.footer p {
+  font-size: 1rem;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+.image_area {
+  width: 100%;
+}
+.side_menu .point {
+  background-color: #FCECEC;
+}
+.side_menu .point a {
+  color: #4D4D4D;
+}
